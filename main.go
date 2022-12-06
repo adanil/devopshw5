@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Starting aplication3...")
+	fmt.Println("Starting aplication4...")
 	cfg, err := getConfig()
 	if err != nil {
 		panic(err)
