@@ -35,9 +35,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:9091",
+					"raw": "server-service.default.svc.cluster.local:9091",
 					"host": [
-						"localhost"
+						"server-service",
+						"default",
+						"svc",
+						"cluster",
+						"local"
 					],
 					"port": "9091"
 				}
@@ -71,9 +75,13 @@
 					"raw": "Hello, hw3"
 				},
 				"url": {
-					"raw": "localhost:9091",
+					"raw": "server-service.default.svc.cluster.local:9091",
 					"host": [
-						"localhost"
+						"server-service",
+						"default",
+						"svc",
+						"cluster",
+						"local"
 					],
 					"port": "9091"
 				}
